@@ -1,0 +1,16 @@
+@import "../../theme/variables.scss";
+
+.primary-button{
+    color: $white;
+    background-color: $primary-color;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0px;
+    margin-top: 20px;   
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-family: 'Rubik_Medium';
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.header-container1 {
+    height: 76px;
+    background-color: white !important;
+    margin-top: -16px !important;
+    // box-shadow: -7px -22px 44px 7px black;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.logged-in-user{
+    position: absolute;
+    top: 15px;
+    bottom: 0px;
+    right: 10px;
+    height: 20px;
+}
