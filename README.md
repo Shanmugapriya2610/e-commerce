@@ -1,1 +1,1 @@
-# react_yatra_prime_admin
+# react_e-commerce
