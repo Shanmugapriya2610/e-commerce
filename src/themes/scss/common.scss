@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+.title {
+  color: $primary-color-blue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+}
+
+.main-content {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+
+.wrapper {
+  padding: 0px 40px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

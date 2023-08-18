@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins");
+@import "bootstrap/scss/bootstrap.scss";
+@import "./functions.scss";
+@import "./variables.scss";
+@import "./common.scss";
+
+body {
+  font-family: "Lato", sans-serif;
+  cursor: default;
+}

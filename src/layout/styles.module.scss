@@ -1,0 +1,50 @@
+.authbg {
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.authbg {
+  background: url("");
+  height: 100vh;
+}
+
+.container-fluid {
+  padding: 10px 0;
+}
+
+
+.nav-item.with-spacing {
+  margin-right: 15px;
+  /* Adjust the spacing as desired */
+}
+
+
+.brandLogo {
+  width: 70px;
+  /* Adjust the width as desired */
+  height: 68px;
+  /* Adjust the height as desired */
+  background-position: -462px 0;
+  background-size: contain;
+  /* Adjust the value as needed */
+  display: inline-block;
+}
+
+/* Adjust the appearance of the nav-link if needed */
+.nav-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+sup {
+  color: #ff3f6c
+}
+
+.navbar .links {
+  margin-right: auto;
+}

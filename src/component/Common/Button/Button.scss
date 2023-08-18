@@ -1,0 +1,43 @@
+@import "themes/scss/variables.scss";
+@import "themes/scss/mixins.scss";
+
+.commonButton {
+  @include common-button;
+  color: $white;
+  background: $secondary-color-pink;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.2s all;
+}
+
+.button-outline {
+  @include common-button;
+  color: $error;
+  background: $white;
+  border: 1px solid $error;
+  transition: 0.2s all;
+}
+
+.commonButton:active,
+.button-outline:active {
+  transform: scale(0.98);
+}
+
+.transparent {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: $primary-color-blue;
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@include media-breakpoint-mobile-land {
+  .commonButton,
+  .button-outline {
+    font-size: 16px;
+    height: 45px;
+  }
+}

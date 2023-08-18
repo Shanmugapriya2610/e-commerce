@@ -1,2 +1,3 @@
-export { AuthLayout } from "./authLayout";
-export { MainLayout } from "./mainLayout";
+export { MainLayout } from "./MainLayout";
+export { AuthLayout } from "./AuthLayout";
+export { NotFoundLayout } from "./NotFoundLayout";

@@ -1,0 +1,31 @@
+@import "themes/scss/variables.scss";
+
+.container {
+  background: #004c6b;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  padding-top: 20px;
+}
+
+.navLink {
+  text-decoration: none !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $white;
+}
+
+.navItem {
+  padding: 20px 0px 20px 25px;
+  &:hover {
+    background: $secondary-color-pink;
+    color: $white;
+    transition: all 0.1s;
+  }
+}
+
+.active {
+  background: $secondary-color-pink;
+  padding: 20px 0px 20px 25px;
+  color: $white;
+}

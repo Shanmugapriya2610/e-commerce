@@ -1,0 +1,51 @@
+@import "../../../themes/scss/variables.scss";
+
+.paginationButtons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.paginationButtons a {
+  padding: 3px 6px;
+  border: none;
+  border-radius: 2px;
+  margin: 5px;
+  color: #000000;
+}
+
+.paginationActive a {
+  border: 0.5px solid #000000;
+  text-decoration: none;
+  color: #000000;
+}
+
+.previousButton a {
+  background: transparent;
+  border: none;
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.paginationBreak a {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.nextButton a {
+  background: transparent;
+  border: none;
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.disabledButton a {
+  background: transparent;
+  border: none;
+  color: #000000;
+  opacity: 0.4;
+}
